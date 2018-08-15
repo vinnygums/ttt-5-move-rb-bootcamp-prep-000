@@ -11,6 +11,6 @@ def input_to_index(userInput)
   userInput.to_i-1
 end
 
-def move(board, index, sign)
+def move(board, index, sign = "X")
   board[index] = sign
 end
